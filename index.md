@@ -30,8 +30,7 @@ layout: default
 
 * * *
 
-<h5><strong>Ph.D.</strong> <a href="http://ie.kaist.ac.kr/">Korea Advanced Institute of Science & Technology (
-KAIST)</a> </h5>
+<h5><strong>Ph.D.</strong> <a href="http://ie.kaist.ac.kr/">Korea Advanced Institute of Science & Technology (KAIST)</a> </h5>
 
 * Mar 2016 \~ Feb 2023
 * Industrial & Systems Engineering
@@ -39,8 +38,7 @@ KAIST)</a> </h5>
 * <p class="thesisindent">Thesis: <i>Applications of graph neural networks in modeling and decision-making of dynamic networks</i></p>
 * Best Dissertation Award
 
-<h5><strong>B.S.</strong> <a href="http://ie.kaist.ac.kr/">Korea Advanced Institute of Science & Technology (
-KAIST)</a> </h5>
+<h5><strong>B.S.</strong> <a href="http://ie.kaist.ac.kr/">Korea Advanced Institute of Science & Technology (KAIST)</a> </h5>
 
 * Feb 2011 \~ Feb 2016
 * Industrial & Systems Engineering
