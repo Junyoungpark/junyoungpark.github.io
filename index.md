@@ -35,8 +35,7 @@ layout: default
 * Mar 2016 \~ Feb 2023
 * Industrial & Systems Engineering
 * Advisor: [Jinkyoo Park](http://silab.kaist.ac.kr)
-* <p class="thesisindent">Thesis: <i>Applications of graph neural networks in modeling and decision-making of dynamic networks</i></p>
-* Best Dissertation Award
+* <p class="thesisindent">Thesis: <i>Applications of graph neural networks in modeling and decision-making of dynamic networks (Best Dissertation Award)</i></p>
 
 <h5><strong>B.S.</strong> <a href="http://ie.kaist.ac.kr/">Korea Advanced Institute of Science & Technology (KAIST)</a> </h5>
 
