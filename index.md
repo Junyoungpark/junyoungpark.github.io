@@ -22,7 +22,7 @@ layout: default
 <p class="indent">[12/2022] I gave a talk at Genentech on "Incorporating Inductive Biases to Graph Neural Networks" </p>
 <p class="indent">[07/2022] I'm visiting at Stanford as a visiting student researcher, hosted by <a href="https://mykel.kochenderfer.com/">prof. Mykel J. Kochenderfer. </a></p>
 
-[//]: # (&nbsp;)
+&nbsp;
 
 * * *
 
@@ -30,7 +30,8 @@ layout: default
 
 * * *
 
-<h4><strong>Ph.D.</strong> <a href="http://ie.kaist.ac.kr/">Korea Advanced Institute of Science & Technology (KAIST)</a> </h4>
+<h5><strong>Ph.D.</strong> <a href="http://ie.kaist.ac.kr/">Korea Advanced Institute of Science & Technology (
+KAIST)</a> </h5>
 
 * Mar 2016 \~ Feb 2023
 * Industrial & Systems Engineering
@@ -38,7 +39,8 @@ layout: default
 * <p class="thesisindent">Thesis: <i>Applications of graph neural networks in modeling and decision-making of dynamic networks</i></p>
 * Best Dissertation Award
 
-<h4><strong>B.S.</strong> <a href="http://ie.kaist.ac.kr/">Korea Advanced Institute of Science & Technology (KAIST)</a> </h4>
+<h5><strong>B.S.</strong> <a href="http://ie.kaist.ac.kr/">Korea Advanced Institute of Science & Technology (
+KAIST)</a> </h5>
 
 * Feb 2011 \~ Feb 2016
 * Industrial & Systems Engineering
