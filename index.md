@@ -15,6 +15,8 @@ layout: default
 
 * * *
 
+<p class="indent">[02/2023] My paper, "Generating Dispatching Rules for the interrupting Swap-Allowed Blocking Job Shop Scheduling Problem Using
+Graph Neural Network and Reinforcement Learning" got accepted to <a href="https://event.asme.org/MSEC">MSEC 2023</a>!</p>
 <p class="indent">[01/2023] My paper, "Neuro CROSS exchange: Learning to CROSS exchange to solve realistic vehicle routing problems" got accepted to <a href="https://iclr.cc/">ICLR 2023</a>!</p> 
 <p class="indent">[01/2023] My paper, "Learn to solve the min‑max multiple traveling salesmen problem with reinforcement learning" got accepted to <a href="https://aamas2023.soton.ac.uk/">AAMAS 2023</a>. </p>
 <p class="indent">[12/2022] I received the best dissertation award at the College of Engineering of KAIST.</p>
@@ -50,6 +52,9 @@ layout: default
 
 * * *
 
+* Vivian Wen Hui Wong, Sang Hun Kim, <strong>Junyoung Park</strong>, Jinkyoo Park, and Kincho H. Law. _Generating Dispatching Rules for the interrupting Swap-Allowed Blocking Job Shop Scheduling Problem Using
+Graph Neural Network and Reinforcement Learning_. MSEC 2023.
+
 * <strong>Junyoung Park</strong>\*, Minjun Kim\*, and Jinkyoo Park. _Neuro CROSS Exchange: Learning to CROSS Exchange to
   Solve Realistic Vehicle Routing Problems_. ICLR 2023. <a href="https://arxiv.org/pdf/2206.02771.pdf"> [paper] </a>
 
@@ -72,8 +77,7 @@ layout: default
   International Journal of Production Research (IJPR) 2021 (IF = 8.568) <strong> Top-cited article published in
   2021/22 <a href="/assets/file/certificate.pdf">(certificate)</a> </strong> <a href="https://www.tandfonline.com/doi/epdf/10.1080/00207543.2020.1870013?needAccess=true&role=button">[paper]</a>
 
-* Michael Poli, Stefano Massaroli, <strong>Junyoung Park</strong>, Atsushi Yamashita, Hajime Asama, and Jinkyoo Park, _
-  Graph neural ordinary differential equations_, Arxiv 2019. <a href="https://arxiv.org/pdf/1911.07532.pdf">[paper] <a href="https://github.com/Zymrael/gde">[code]</a>
+* Michael Poli, Stefano Massaroli, <strong>Junyoung Park</strong>, Atsushi Yamashita, Hajime Asama, and Jinkyoo Park, _Graph neural ordinary differential equations_, Arxiv 2019. <a href="https://arxiv.org/pdf/1911.07532.pdf">[paper] <a href="https://github.com/Zymrael/gde">[code]</a>
 
 * Seongcheol Woo, <strong>Junyoung Park</strong>, Jinkyoo Park, and Lance Manuel, _Wind field‐based short‐term turbine
   response forecasting by stacked dilated convolutional LSTMs_, IEEE Transactions on Sustainable Energy 2019 (IF = 9).
