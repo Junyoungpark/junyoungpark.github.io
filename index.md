@@ -77,7 +77,7 @@ Graph Neural Network and Reinforcement Learning_. MSEC 2023.
   International Journal of Production Research (IJPR) 2021 (IF = 8.568) <strong> Top-cited article published in
   2021/22 <a href="/assets/file/certificate.pdf">(certificate)</a> </strong> <a href="https://www.tandfonline.com/doi/epdf/10.1080/00207543.2020.1870013?needAccess=true&role=button">[paper]</a>
 
-* Michael Poli, Stefano Massaroli, <strong>Junyoung Park</strong>, Atsushi Yamashita, Hajime Asama, and Jinkyoo Park, _Graph neural ordinary differential equations_, Arxiv 2019. <a href="https://arxiv.org/pdf/1911.07532.pdf">[paper] <a href="https://github.com/Zymrael/gde">[code]</a>
+* Michael Poli, Stefano Massaroli, <strong>Junyoung Park</strong>, Atsushi Yamashita, Hajime Asama, and Jinkyoo Park,  _Graph neural ordinary differential equations_, Arxiv 2019. <a href="https://arxiv.org/pdf/1911.07532.pdf">[paper] <a href="https://github.com/Zymrael/gde">[code]</a>
 
 * Seongcheol Woo, <strong>Junyoung Park</strong>, Jinkyoo Park, and Lance Manuel, _Wind field‐based short‐term turbine
   response forecasting by stacked dilated convolutional LSTMs_, IEEE Transactions on Sustainable Energy 2019 (IF = 9).
