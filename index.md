@@ -13,12 +13,17 @@ layout: default
 <h1>Latest News</h1>
 
 ---
-
-<p class="indent">[03/2023] My paper, "Prognosis prediction for glioblastoma multiforme patients using machine learning approaches: development of the clinically applicable model" got accepted to <a href="https://www.sciencedirect.com/journal/radiotherapy-and-oncology">Radiotherapy and Oncology</a>!</p>
-<p class="indent">[02/2023] My paper, "Generating Dispatching Rules for the interrupting Swap-Allowed Blocking Job Shop Scheduling Problem Using
+<p class="indent">[3/2024] Check out the work from our group <a href="https://arxiv.org/abs/2402.14160">"Recursive Speculative Decoding: Accelerating LLM Inference via Sampling Without Replacement"</a>. 
+<p class="indent">[2/2024] "Direct Alignment of Draft Model for Speculative Decoding with Chat-Fined-Tuned LLMs" got accepted to  <a href="https://llmagents.github.io/">Workshop on LLM Agents at ICLR 2024</a>.
+<p class="indent">[1/2024] "Generating Dispatching Rules for the Interrupting Swap-Allowed Blocking Job Shop Problem Using Graph Neural Network and Reinforcement Learning" got accepted to <a href="https://asmedigitalcollection.asme.org/manufacturingscience/article-abstract/146/1/011009/1168977/Generating-Dispatching-Rules-for-the-Interrupting">Journal of Manufacturing Science and Engineering</a>. 
+<p class="indent">[12/2023] RL4CO: an extensive reinforcement learning for combinatorial optimization benchmark
+ (<a href="https://rl4.co">rl4.co</a>) has been accepted as an oral presentation at <a href="https://glfrontiers.github.io/2023/overview/">the NeurIPS 2023 GLFrontiers Workshop</a>!</p>
+<p class="indent">[10/2023] <b>I started as Senior Machine Learning Engineer at Qualcomm AI Research to work on efficient LLM!</b></p>
+<p class="indent">[03/2023] "Prognosis prediction for glioblastoma multiforme patients using machine learning approaches: development of the clinically applicable model" got accepted to <a href="https://www.sciencedirect.com/journal/radiotherapy-and-oncology">Radiotherapy and Oncology</a>!</p>
+<p class="indent">[02/2023] "Generating Dispatching Rules for the interrupting Swap-Allowed Blocking Job Shop Scheduling Problem Using
 Graph Neural Network and Reinforcement Learning" got accepted to <a href="https://event.asme.org/MSEC">MSEC 2023</a>!</p>
-<p class="indent">[01/2023] My paper, "Neuro CROSS exchange: Learning to CROSS exchange to solve realistic vehicle routing problems" got accepted to <a href="https://iclr.cc/">ICLR 2023</a>!</p> 
-<p class="indent">[01/2023] My paper, "Learn to solve the min‑max multiple traveling salesmen problem with reinforcement learning" got accepted to <a href="https://aamas2023.soton.ac.uk/">AAMAS 2023</a>. </p>
+<p class="indent">[01/2023] "Neuro CROSS exchange: Learning to CROSS exchange to solve realistic vehicle routing problems" got accepted to <a href="https://iclr.cc/">ICLR 2023</a>!</p> 
+<p class="indent">[01/2023] "Learn to solve the min‑max multiple traveling salesmen problem with reinforcement learning" got accepted to <a href="https://aamas2023.soton.ac.uk/">AAMAS 2023</a>. </p>
 <p class="indent">[12/2022] I received the best dissertation award at the College of Engineering of KAIST.</p>
 <p class="indent">[12/2022] I successfully defended my dissertation, "Applications of graph neural networks in modeling and decision-making of dynamic networks"</p> 
 <p class="indent">[12/2022] I gave a talk at Genentech on "Incorporating Inductive Biases to Graph Neural Networks" </p>
