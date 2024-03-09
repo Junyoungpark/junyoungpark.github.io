@@ -24,10 +24,6 @@ layout: default
 Graph Neural Network and Reinforcement Learning" got accepted to <a href="https://event.asme.org/MSEC">MSEC 2023</a>!</p>
 <p class="indent">[01/2023] "Neuro CROSS exchange: Learning to CROSS exchange to solve realistic vehicle routing problems" got accepted to <a href="https://iclr.cc/">ICLR 2023</a>!</p> 
 <p class="indent">[01/2023] "Learn to solve the min‑max multiple traveling salesmen problem with reinforcement learning" got accepted to <a href="https://aamas2023.soton.ac.uk/">AAMAS 2023</a>. </p>
-<p class="indent">[12/2022] I received the best dissertation award at the College of Engineering of KAIST.</p>
-<p class="indent">[12/2022] I successfully defended my dissertation, "Applications of graph neural networks in modeling and decision-making of dynamic networks"</p> 
-<p class="indent">[12/2022] I gave a talk at Genentech on "Incorporating Inductive Biases to Graph Neural Networks" </p>
-<p class="indent">[07/2022] I'm visiting at Stanford as a visiting student researcher, hosted by <a href="https://mykel.kochenderfer.com/">Prof. Mykel J. Kochenderfer. </a></p>
 
 &nbsp;
 
