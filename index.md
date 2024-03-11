@@ -13,8 +13,9 @@ layout: default
 <h1>Latest News</h1>
 
 ---
-<p class="indent">[3/2024] Check out the work from our group <a href="https://arxiv.org/abs/2402.14160">"Recursive Speculative Decoding: Accelerating LLM Inference via Sampling Without Replacement"</a>. 
-<p class="indent">[2/2024] "Direct Alignment of Draft Model for Speculative Decoding with Chat-Fined-Tuned LLMs" got accepted to  <a href="https://llmagents.github.io/">Workshop on LLM Agents at ICLR 2024</a>.
+
+<p class="indent">[3/2024] "<a href="https://arxiv.org/abs/2402.14160">Recursive Speculative Decoding: Accelerating LLM Inference via Sampling Without Replacement</a>" got accepted to  <a href="https://llmagents.github.io/">Workshop on LLM Agents at ICLR 2024</a>.
+<p class="indent">[2/2024] Check out the work from our group <a href="https://arxiv.org/abs/2403.00858">"Direct Alignment of Draft Model for Speculative Decoding with Chat-Fined-Tuned LLMs"</a>.
 <p class="indent">[1/2024] "Generating Dispatching Rules for the Interrupting Swap-Allowed Blocking Job Shop Problem Using Graph Neural Network and Reinforcement Learning" got accepted to <a href="https://asmedigitalcollection.asme.org/manufacturingscience/article-abstract/146/1/011009/1168977/Generating-Dispatching-Rules-for-the-Interrupting">Journal of Manufacturing Science and Engineering</a>. 
 <p class="indent">[12/2023] RL4CO: an extensive reinforcement learning for combinatorial optimization benchmark
  (<a href="https://rl4.co">rl4.co</a>) has been accepted as an oral presentation at <a href="https://glfrontiers.github.io/2023/overview/">the NeurIPS 2023 GLFrontiers Workshop</a>!</p>
