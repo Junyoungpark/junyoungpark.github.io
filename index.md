@@ -9,15 +9,11 @@ layout: default
 <h1>Latest News</h1>
 
 - [8/2025] Our work <a href="https://arxiv.org/abs/2406.15007">Routefinder: Towards Foundation Models for Vehicle Routing Problems</a> got accepted to TMLR 2025!
+- [7/2025] Our work, <a href="https://arxiv.org/abs/2306.17100">RL4CO: an extensive reinforcement learning for combinatorial optimization benchmark</a> got accepted at KDD 2025. Check out our website at <a href="https://rl4co.ai4co.org">https://rl4co.ai4co.org</a>.
 - [3/2024] "<a href="https://arxiv.org/abs/2402.14160">Recursive Speculative Decoding: Accelerating LLM Inference via Sampling Without Replacement</a>" got accepted to the <a href="https://llmagents.github.io/">Workshop on LLM Agents at ICLR 2024</a>.
 - [2/2024] Check out the work from our group <a href="https://arxiv.org/abs/2403.00858">Direct Alignment of Draft Model for Speculative Decoding with Chat-Fine-Tuned LLMs</a>.
 - [1/2024] "Generating Dispatching Rules for the Interrupting Swap-Allowed Blocking Job Shop Problem Using Graph Neural Network and Reinforcement Learning" got accepted to the <a href="https://asmedigitalcollection.asme.org/manufacturingscience/article-abstract/146/1/011009/1168977/Generating-Dispatching-Rules-for-the-Interrupting">Journal of Manufacturing Science and Engineering</a>.
-- [12/2023] RL4CO: an extensive reinforcement learning for combinatorial optimization benchmark (<a href="https://rl4.co">rl4.co</a>) was accepted as an oral presentation at <a href="https://glfrontiers.github.io/2023/overview/">the NeurIPS 2023 GLFrontiers Workshop</a>.
 - [10/2023] <b>I started as Senior AI Researcher at Qualcomm AI Research to work on efficient LLM!</b>
-- [03/2023] "Prognosis prediction for glioblastoma multiforme patients using machine learning approaches: development of the clinically applicable model" got accepted to <a href="https://www.sciencedirect.com/journal/radiotherapy-and-oncology">Radiotherapy and Oncology</a>.
-- [02/2023] "Generating Dispatching Rules for the Interrupting Swap-Allowed Blocking Job Shop Scheduling Problem Using Graph Neural Network and Reinforcement Learning" got accepted to <a href="https://event.asme.org/MSEC">MSEC 2023</a>.
-- [01/2023] "Neuro CROSS exchange: Learning to CROSS exchange to solve realistic vehicle routing problems" got accepted to <a href="https://iclr.cc/">ICLR 2023</a>.
-- [01/2023] "Learn to solve the min-max multiple traveling salesmen problem with reinforcement learning" got accepted to <a href="https://aamas2023.soton.ac.uk/">AAMAS 2023</a>.
 
 &nbsp;
 
@@ -45,6 +41,7 @@ layout: default
 
 - <strong>Junyoung Park</strong>, Dalton Jones, Matt Morse, Raghavv Goel, Mingu Lee, Chris Lott, _KeyDiff: Key Similarity-Based KV Cache Eviction for Long-Context LLM Inference in Resource-Constrained Environments_, arXiv 2025, <a href="https://arxiv.org/abs/2504.15364">[paper]</a>
 - Federico Berto, Chuanbo Hua, Nayeli Gast Zepeda, André Hottung, Niels Wouda, Leon Lan, <strong>Junyoung Park</strong>, Kevin Tierney, Jinkyoo Park, _Routefinder: Towards Foundation Models for Vehicle Routing Problems_, TMLR 2025. <a href="https://arxiv.org/abs/2406.15007">[paper]</a>
+- Federico Berto*, Chuanbo Hua*, <strong>Junyoung Park*</strong>, Laurin Luttmann*, et al., _RL4CO: an extensive reinforcement learning for combinatorial optimization benchmark_, KDD 2025. <a href="https://arxiv.org/abs/2306.17100">[Paper]</a><a href="https://rl4co.ai4co.org">[Website]</a>
 - Wonsuk Jeon, Manmohan Gagrani, Rishabh Goel, <strong>Junyoung Park</strong>, Michael Lee, and Christopher Lott, _Recursive Speculative Decoding: Accelerating LLM Inference via Sampling Without Replacement_, arXiv 2024. <a href="https://arxiv.org/abs/2402.14160">[paper]</a>
 - Mukul Gagrani, Raghavv Goel, Wonseok Jeon, <strong>Junyoung Park</strong>, Mingu Lee, Christopher Lott, _On Speculative Decoding for Multimodal Large Language Models_, arXiv 2024. <a href="https://arxiv.org/abs/2404.08856">[paper]</a>
 - Raghavv Goel, Mukul Gagrani, Wonseok Jeon, <strong>Junyoung Park</strong>, Mingu Lee, Christopher Lott, _Direct Alignment of Draft Model for Speculative Decoding with Chat-Fine-Tuned LLMs_, arXiv 2024. <a href="https://arxiv.org/abs/2403.00858">[paper]</a>
