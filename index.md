@@ -13,13 +13,13 @@ layout: default
 <h1>Latest News</h1>
 
 ---
-
+<p class="indent">[8/2025] Our work  <a href="https://arxiv.org/abs/2406.15007">Routefinder: Towards Foundation Models for Vehicle Routing Problems </a> got accepted to TMLR 2025!
 <p class="indent">[3/2024] "<a href="https://arxiv.org/abs/2402.14160">Recursive Speculative Decoding: Accelerating LLM Inference via Sampling Without Replacement</a>" got accepted to  <a href="https://llmagents.github.io/">Workshop on LLM Agents at ICLR 2024</a>.
 <p class="indent">[2/2024] Check out the work from our group <a href="https://arxiv.org/abs/2403.00858">"Direct Alignment of Draft Model for Speculative Decoding with Chat-Fined-Tuned LLMs"</a>.
 <p class="indent">[1/2024] "Generating Dispatching Rules for the Interrupting Swap-Allowed Blocking Job Shop Problem Using Graph Neural Network and Reinforcement Learning" got accepted to <a href="https://asmedigitalcollection.asme.org/manufacturingscience/article-abstract/146/1/011009/1168977/Generating-Dispatching-Rules-for-the-Interrupting">Journal of Manufacturing Science and Engineering</a>. 
 <p class="indent">[12/2023] RL4CO: an extensive reinforcement learning for combinatorial optimization benchmark
  (<a href="https://rl4.co">rl4.co</a>) has been accepted as an oral presentation at <a href="https://glfrontiers.github.io/2023/overview/">the NeurIPS 2023 GLFrontiers Workshop</a>!</p>
-<p class="indent">[10/2023] <b>I started as Senior Machine Learning Engineer at Qualcomm AI Research to work on efficient LLM!</b></p>
+<p class="indent">[10/2023] <b>I started as Senior AI Researcher at Qualcomm AI Research to work on efficient LLM!</b></p>
 <p class="indent">[03/2023] "Prognosis prediction for glioblastoma multiforme patients using machine learning approaches: development of the clinically applicable model" got accepted to <a href="https://www.sciencedirect.com/journal/radiotherapy-and-oncology">Radiotherapy and Oncology</a>!</p>
 <p class="indent">[02/2023] "Generating Dispatching Rules for the interrupting Swap-Allowed Blocking Job Shop Scheduling Problem Using
 Graph Neural Network and Reinforcement Learning" got accepted to <a href="https://event.asme.org/MSEC">MSEC 2023</a>!</p>
@@ -53,6 +53,15 @@ Graph Neural Network and Reinforcement Learning" got accepted to <a href="https:
 <h1>Selected Papers <small>(*: Equal Contribution)</small></h1>
 
 ---
+- <strong>Junyoung Park</strong>, Dalton Jones, Matt Morse, Raghavv Goel, Mingu Lee, Chris Lott, _KeyDiff: Key Similarity-Based KV Cache Eviction for Long-Context LLM Inference in Resource-Constrained Environments_, arXiv 2025, <a href="https://arxiv.org/abs/2504.15364">[paper]</a>
+
+- Federico Berto, Chuanbo Hua, Nayeli Gast Zepeda, André Hottung, Niels Wouda, Leon Lan, <strong>Junyoung Park</strong>, Kevin Tierney, Jinkyoo Park, _Routefinder: Towards Foundation Models for Vehicle Routing Problems_, TMLR 2025. <a href="https://arxiv.org/abs/2406.15007">[paper]</a>
+
+- Wonsuk Jeon, Manmohan Gagrani, Rishabh Goel, <strong>Junyoung Park</strong>, Michael Lee, and Christopher Lott, _Recursive Speculative Decoding: Accelerating LLM Inference via Sampling Without Replacement_, arXiv 2024. <a href="https://arxiv.org/abs/2402.14160">[paper]</a>
+
+- Mukul Gagrani, Raghavv Goel, Wonseok Jeon, <strong>Junyoung Park</strong>, Mingu Lee, Christopher Lott, _On Speculative Decoding for Multimodal Large Language Models_, arXiv 2024. <a href="https://arxiv.org/abs/2404.08856">[paper]</a>
+
+- Raghavv Goel, Mukul Gagrani, Wonseok Jeon, <strong>Junyoung Park</strong>, Mingu Lee, Christopher Lott, _Direct Alignment of Draft Model for Speculative Decoding with Chat-Fine-Tuned LLMs_, arXiv 2024. <a href="https://arxiv.org/abs/2403.00858">[paper]</a>
 
 - Vivian Wen Hui Wong, Sang Hun Kim, <strong>Junyoung Park</strong>, Jinkyoo Park, and Kincho H. Law. _Generating Dispatching Rules for the interrupting Swap-Allowed Blocking Job Shop Scheduling Problem Using
   Graph Neural Network and Reinforcement Learning_. MSEC 2023.
@@ -79,7 +88,7 @@ Graph Neural Network and Reinforcement Learning" got accepted to <a href="https:
   International Journal of Production Research (IJPR) 2021 (IF = 8.568) <strong> Top-cited article published in
   2021/22 <a href="/assets/file/certificate.pdf">(certificate)</a> </strong> <a href="https://www.tandfonline.com/doi/epdf/10.1080/00207543.2020.1870013?needAccess=true&role=button">[paper]</a>
 
-- Michael Poli, Stefano Massaroli, <strong>Junyoung Park</strong>, Atsushi Yamashita, Hajime Asama, and Jinkyoo Park, _Graph neural ordinary differential equations_, Arxiv 2019. <a href="https://arxiv.org/pdf/1911.07532.pdf">[paper] <a href="https://github.com/Zymrael/gde">[code]</a>
+- Michael Poli, Stefano Massaroli, <strong>Junyoung Park</strong>, Atsushi Yamashita, Hajime Asama, and Jinkyoo Park, _Graph neural ordinary differential equations_, Arxiv 2019. <a href="https://arxiv.org/pdf/1911.07532.pdf">[paper]</a> <a href="https://github.com/Zymrael/gde">[code]</a>
 
 - Seongcheol Woo, <strong>Junyoung Park</strong>, Jinkyoo Park, and Lance Manuel, _Wind field‐based short‐term turbine
   response forecasting by stacked dilated convolutional LSTMs_, IEEE Transactions on Sustainable Energy 2019 (IF = 9).
