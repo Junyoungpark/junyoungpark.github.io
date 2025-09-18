@@ -7,7 +7,7 @@ layout: default
 <!--There should be whitespace between paragraphs.-->
 
 <h1>Latest News</h1>
-
+- [9/2025] Two of our work, <a href="https://arxiv.org/abs/2504.15364">KeyDiff: Key Similarity-based KV Cache Eviction for Long-context LLM Inference in Resource-constrained Environments</a> and <a href="https://arxiv.org/abs/2409.03811">PARCO: Parallel AutoRegressive Models for Multi-Agent Combinatorial Optimization</a> are accepted to NeurIPS 2025. 
 - [8/2025] Our work <a href="https://arxiv.org/abs/2406.15007">Routefinder: Towards Foundation Models for Vehicle Routing Problems</a> got accepted to TMLR 2025!
 - [7/2025] Our work, <a href="https://arxiv.org/abs/2306.17100">RL4CO: an extensive reinforcement learning for combinatorial optimization benchmark</a> got accepted at KDD 2025. Check out our website at <a href="https://rl4co.ai4co.org">https://rl4co.ai4co.org</a>.
 - [3/2024] "<a href="https://arxiv.org/abs/2402.14160">Recursive Speculative Decoding: Accelerating LLM Inference via Sampling Without Replacement</a>" got accepted to the <a href="https://llmagents.github.io/">Workshop on LLM Agents at ICLR 2024</a>.
