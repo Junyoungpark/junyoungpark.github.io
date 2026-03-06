@@ -43,9 +43,9 @@ layout: default
 
 <div class="paper-card">
   <span class="venue-badge venue-iclr">ICLR 2026</span>
-  <div class="paper-title">QuoKA: Query-Oriented KV Selection for Efficient LLM Prefill</div>
+  <div class="paper-title"><a href="https://arxiv.org/abs/2602.08722">QuoKA: Query-Oriented KV Selection for Efficient LLM Prefill</a></div>
   <div class="paper-authors">Dalton Jones, <strong>Junyoung Park</strong>, Matthew J Morse, Mingu Lee, Matthew Harper Langston, Christopher Lott</div>
-  <div class="paper-links"></div>
+  <div class="paper-links"><a href="https://arxiv.org/abs/2602.08722">[paper]</a></div>
 </div>
 
 <div class="paper-card">
