@@ -335,32 +335,161 @@ footer {
 
 /* ── Responsive ───────────────────────────────────── */
 
-@media (max-width: 640px) {
+/* Tablet */
+@media (max-width: 768px) {
+  .topnav {
+    padding: 0 1.25rem;
+  }
+
   main {
-    padding: 2rem 1.25rem 3rem;
+    padding: 2.5rem 1.5rem 3rem;
+  }
+
+  .profile-photo img {
+    width: 120px;
+    height: 150px;
+  }
+
+  .profile-info h1 {
+    font-size: 1.6rem;
+  }
+
+  .paper-card {
+    padding: 0.85rem 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .topnav {
+    padding: 0 1rem;
+  }
+
+  .nav-inner {
+    height: 48px;
+  }
+
+  .nav-name {
+    font-size: 14px;
+  }
+
+  .nav-links a {
+    margin-left: 0.85rem;
+    font-size: 13px;
+  }
+
+  main {
+    padding: 1.75rem 1rem 2.5rem;
   }
 
   .profile-section {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     gap: 1.25rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
   }
 
   .profile-photo img {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 138px;
   }
 
   .profile-info h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
-  .nav-links a {
-    margin-left: 1rem;
+  .profile-title {
+    font-size: 14px;
+  }
+
+  .profile-interests {
+    font-size: 12px;
+  }
+
+  .profile-links {
+    justify-content: center;
+  }
+
+  .btn {
+    padding: 0.35rem 0.75rem;
+    font-size: 13px;
+  }
+
+  .content section {
+    margin-bottom: 2rem;
   }
 
   .news-list li {
     flex-direction: column;
+    gap: 0.2rem;
+    padding: 0.5rem 0;
+  }
+
+  .news-date {
+    align-self: flex-start;
+  }
+
+  .paper-card {
+    padding: 0.75rem 0.85rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .paper-title {
+    font-size: 13.5px;
+  }
+
+  .paper-authors {
+    font-size: 12px;
+  }
+
+  .venue-badge {
+    font-size: 10px;
+    padding: 0.1rem 0.45rem;
+  }
+
+  .edu-entry {
+    margin-bottom: 1.25rem;
+  }
+
+  .edu-degree {
+    font-size: 14px;
+  }
+
+  .edu-meta, .edu-note {
+    font-size: 12.5px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 400px) {
+  .nav-inner {
+    flex-direction: column;
+    height: auto;
+    padding: 0.5rem 0;
     gap: 0.25rem;
+  }
+
+  .nav-links a {
+    margin-left: 0.6rem;
+  }
+
+  .nav-links a:first-child {
+    margin-left: 0;
+  }
+
+  .profile-info h1 {
+    font-size: 1.25rem;
+  }
+
+  .profile-links {
+    gap: 0.4rem;
+  }
+
+  .btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 12px;
   }
 }
 
