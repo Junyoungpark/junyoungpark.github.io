@@ -4,7 +4,7 @@ layout: default
 
 <section id="research">
 <div class="section-header">
-<h2>Research</h2>
+<h2>Research Focus</h2>
 <p class="section-lead">I work mostly on efficient LLM inference, with continuing interests in speculative decoding and reinforcement learning for combinatorial optimization.</p>
 </div>
 
