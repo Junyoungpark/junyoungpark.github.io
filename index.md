@@ -2,41 +2,37 @@
 layout: default
 ---
 
-<section id="news">
+<section id="research">
 <div class="section-header">
-<h2>Latest News</h2>
-<p class="section-lead">Recent paper acceptances, workshop activity, and research updates.</p>
+<h2>Research</h2>
+<p class="section-lead">I work mostly on efficient LLM inference, with continuing interests in speculative decoding and reinforcement learning for combinatorial optimization.</p>
 </div>
-<ul class="news-list">
-  <li>
-    <span class="news-date">Mar 2026</span>
-    <span class="news-copy"><a href="https://openreview.net/forum?id=yolbP0NoZv">CAOTE</a> accepted to ICLR 2026 Workshop MemAgents.</span>
-  </li>
-  <li>
-    <span class="news-date">Mar 2026</span>
-    <span class="news-copy"><a href="https://arxiv.org/abs/2504.15364">QuoKA</a> (query-oriented KV selection for efficient LLM prefill) accepted to ICLR 2026.</span>
-  </li>
-  <li>
-    <span class="news-date">Sep 2025</span>
-    <span class="news-copy">Two papers accepted to NeurIPS 2025: <a href="https://arxiv.org/abs/2504.15364">KeyDiff</a> (KV cache eviction for long-context LLM inference) and <a href="https://arxiv.org/abs/2409.03811">PARCO</a> (parallel autoregressive models for multi-agent combinatorial optimization).</span>
-  </li>
-  <li>
-    <span class="news-date">Aug 2025</span>
-    <span class="news-copy"><a href="https://arxiv.org/abs/2406.15007">Routefinder</a> accepted to TMLR 2025.</span>
-  </li>
-  <li>
-    <span class="news-date">Jul 2025</span>
-    <span class="news-copy"><a href="https://arxiv.org/abs/2306.17100">RL4CO</a> accepted to KDD 2025. Check out <a href="https://rl4co.ai4co.org">rl4co.ai4co.org</a>.</span>
-  </li>
-  <li>
-    <span class="news-date">Mar 2024</span>
-    <span class="news-copy"><a href="https://arxiv.org/abs/2402.14160">Recursive Speculative Decoding</a> accepted to the LLM Agents Workshop at ICLR 2024.</span>
-  </li>
-  <li>
-    <span class="news-date">Oct 2023</span>
-    <span class="news-copy">Started as <strong>Senior AI Researcher at Qualcomm AI Research</strong> to work on efficient LLM.</span>
-  </li>
-</ul>
+
+<div class="focus-list">
+  <article class="focus-item">
+    <h3>Efficient LLM inference</h3>
+    <div class="focus-copy">
+      <p>Work on KV cache selection, eviction, and long-context serving under memory constraints.</p>
+      <p class="focus-papers">Examples: <a href="https://arxiv.org/abs/2602.08722">query-oriented KV selection (QuoKA)</a>, <a href="https://arxiv.org/abs/2504.15364">KV cache eviction for long contexts (KeyDiff)</a>.</p>
+    </div>
+  </article>
+
+  <article class="focus-item">
+    <h3>Speculative decoding</h3>
+    <div class="focus-copy">
+      <p>Systems work on draft-model alignment and recursive decoding for faster language model serving.</p>
+      <p class="focus-papers">Examples: <a href="https://arxiv.org/abs/2402.14160">recursive speculative decoding</a>, <a href="https://arxiv.org/abs/2403.00858">draft-model alignment for speculative decoding</a>.</p>
+    </div>
+  </article>
+
+  <article class="focus-item">
+    <h3>RL for combinatorial optimization</h3>
+    <div class="focus-copy">
+      <p>Earlier work on reinforcement-learning methods for routing, scheduling, and optimization libraries.</p>
+      <p class="focus-papers">Examples: <a href="https://arxiv.org/abs/2409.03811">parallel autoregressive policies for multi-agent optimization (PARCO)</a>, <a href="https://arxiv.org/abs/2306.17100">an RL library for combinatorial optimization (RL4CO)</a>.</p>
+    </div>
+  </article>
+</div>
 </section>
 
 <section id="publications">
@@ -232,6 +228,43 @@ layout: default
   </div>
 </details>
 
+</section>
+
+<section id="news">
+<div class="section-header">
+<h2>Latest News</h2>
+<p class="section-lead">Recent paper acceptances, workshop activity, and research updates.</p>
+</div>
+<ul class="news-list">
+  <li>
+    <span class="news-date">Mar 2026</span>
+    <span class="news-copy"><a href="https://openreview.net/forum?id=yolbP0NoZv">CAOTE</a> accepted to ICLR 2026 Workshop MemAgents.</span>
+  </li>
+  <li>
+    <span class="news-date">Mar 2026</span>
+    <span class="news-copy"><a href="https://arxiv.org/abs/2504.15364">QuoKA</a> (query-oriented KV selection for efficient LLM prefill) accepted to ICLR 2026.</span>
+  </li>
+  <li>
+    <span class="news-date">Sep 2025</span>
+    <span class="news-copy">Two papers accepted to NeurIPS 2025: <a href="https://arxiv.org/abs/2504.15364">KeyDiff</a> (KV cache eviction for long-context LLM inference) and <a href="https://arxiv.org/abs/2409.03811">PARCO</a> (parallel autoregressive models for multi-agent combinatorial optimization).</span>
+  </li>
+  <li>
+    <span class="news-date">Aug 2025</span>
+    <span class="news-copy"><a href="https://arxiv.org/abs/2406.15007">Routefinder</a> accepted to TMLR 2025.</span>
+  </li>
+  <li>
+    <span class="news-date">Jul 2025</span>
+    <span class="news-copy"><a href="https://arxiv.org/abs/2306.17100">RL4CO</a> accepted to KDD 2025. Check out <a href="https://rl4co.ai4co.org">rl4co.ai4co.org</a>.</span>
+  </li>
+  <li>
+    <span class="news-date">Mar 2024</span>
+    <span class="news-copy"><a href="https://arxiv.org/abs/2402.14160">Recursive Speculative Decoding</a> accepted to the LLM Agents Workshop at ICLR 2024.</span>
+  </li>
+  <li>
+    <span class="news-date">Oct 2023</span>
+    <span class="news-copy">Started as <strong>Senior AI Researcher at Qualcomm AI Research</strong> to work on efficient LLM.</span>
+  </li>
+</ul>
 </section>
 
 <section id="education">
