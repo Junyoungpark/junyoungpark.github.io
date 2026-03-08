@@ -1,63 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0SBKSL50FR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-0SBKSL50FR');
-</script>
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0SBKSL50FR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0SBKSL50FR');
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 </head>
 
-<body>
-  <nav class="topnav">
-    <div class="nav-inner">
-      <span class="nav-name">Junyoung Park</span>
-      <div class="nav-links">
-        <a href="#news">News</a>
-        <a href="#publications">Publications</a>
-        <a href="#education">Education</a>
-      </div>
-    </div>
-  </nav>
-
-  <main>
-    <section class="profile-section">
-      <div class="profile-photo">
-        <img src="/assets/img/license.jpg" alt="Junyoung Park">
-      </div>
-      <div class="profile-info">
-        <h1>Junyoung Park</h1>
-        <p class="profile-title">Senior AI Researcher &middot; <a href="https://www.qualcomm.com/research/artificial-intelligence">Qualcomm AI Research</a></p>
-        <p class="profile-interests">Efficient LLM Inference &middot; KV Cache Optimization &middot; Reinforcement Learning &middot; Neural Combinatorial Optimization</p>
-        <div class="profile-links">
-          <a href="/assets/file/CV_junyoungpark.pdf" class="btn">CV</a>
-          <a href="https://scholar.google.com/citations?user=az8czv8AAAAJ" class="btn">Google Scholar</a>
-          <a href="https://github.com/Junyoungpark" class="btn">GitHub</a>
-          <a href="mailto:junyoungpark.ml@gmail.com" class="btn">Email</a>
+<body id="top">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <div class="page-shell">
+    <nav class="topnav" aria-label="Primary">
+      <div class="nav-inner">
+        <a class="nav-name" href="#overview">Junyoung Park</a>
+        <div class="nav-links" data-nav-links>
+          <a href="#overview" class="is-active">Overview</a>
+          <a href="#news">News</a>
+          <a href="#publications">Publications</a>
+          <a href="#education">Education</a>
         </div>
       </div>
-    </section>
+    </nav>
 
-    <div class="content">
-      {{ content }}
-    </div>
-  </main>
+    <main id="content">
+      <section id="overview" class="profile-section">
+        <div class="profile-copy">
+          <div class="profile-hero">
+            <div class="profile-main">
+              <h1>Junyoung Park</h1>
+              <p class="profile-role">Senior AI Researcher at <a href="https://www.qualcomm.com/research/artificial-intelligence">Qualcomm AI Research</a></p>
+              <p class="profile-summary">I work on efficient inference systems for large language models, with recent research focused on KV cache management, speculative decoding, and resource-efficient long-context inference.</p>
+              <div class="profile-focuses" aria-label="Research focus areas">
+                <span>Efficient LLM inference</span>
+                <span>KV cache management</span>
+                <span>Speculative decoding</span>
+                <span>Long-context inference</span>
+                <span>RL for combinatorial optimization</span>
+              </div>
+              <p class="profile-contact"><span>Email</span> <a href="mailto:junyoungpark.ml@gmail.com">junyoungpark.ml@gmail.com</a></p>
+            </div>
+            <div class="profile-photo-shell">
+              <div class="profile-photo-card">
+                <div class="profile-photo">
+                  <img src="/assets/img/license.jpg" alt="Junyoung Park">
+                </div>
+              </div>
+              <div class="profile-links profile-photo-links">
+                <a href="/assets/file/CV_junyoungpark.pdf" class="btn btn-primary">CV</a>
+                <a href="https://scholar.google.com/citations?user=az8czv8AAAAJ" class="btn">Google Scholar</a>
+                <a href="https://github.com/Junyoungpark" class="btn">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <footer>
-    <p>Hosted on GitHub Pages</p>
-  </footer>
+      <div class="content-shell">
+        <div class="content">
+          {{ content }}
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Hosted on GitHub Pages</p>
+    </footer>
+  </div>
+  <script>
+    (() => {
+      const navLinks = Array.from(document.querySelectorAll("[data-nav-links] a"));
+      const sections = navLinks
+        .map((link) => document.querySelector(link.getAttribute("href")))
+        .filter(Boolean);
+
+      if (!navLinks.length || !sections.length || !("IntersectionObserver" in window)) {
+        return;
+      }
+
+      const linkById = new Map(navLinks.map((link) => [link.getAttribute("href").slice(1), link]));
+
+      const setActive = (id) => {
+        navLinks.forEach((link) => {
+          const isActive = link.getAttribute("href") === "#" + id;
+          link.classList.toggle("is-active", isActive);
+          if (isActive) {
+            link.setAttribute("aria-current", "page");
+          } else {
+            link.removeAttribute("aria-current");
+          }
+        });
+      };
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          const visible = entries
+            .filter((entry) => entry.isIntersecting)
+            .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+
+          if (visible && linkById.has(visible.target.id)) {
+            setActive(visible.target.id);
+          }
+        },
+        {
+          rootMargin: "-32% 0px -52% 0px",
+          threshold: [0.2, 0.45, 0.7],
+        }
+      );
+
+      sections.forEach((section) => observer.observe(section));
+      setActive("overview");
+    })();
+  </script>
 </body>
 </html>

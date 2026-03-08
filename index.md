@@ -3,44 +3,48 @@ layout: default
 ---
 
 <section id="news">
+<div class="section-header">
 <h2>Latest News</h2>
+<p class="section-lead">Recent paper acceptances, workshop activity, and research updates.</p>
+</div>
 <ul class="news-list">
   <li>
     <span class="news-date">Mar 2026</span>
-    <span><a href="https://openreview.net/forum?id=yolbP0NoZv">CAOTE</a> accepted to ICLR 2026 Workshop MemAgents.</span>
+    <span class="news-copy"><a href="https://openreview.net/forum?id=yolbP0NoZv">CAOTE</a> accepted to ICLR 2026 Workshop MemAgents.</span>
   </li>
   <li>
     <span class="news-date">Mar 2026</span>
-    <span><a href="https://arxiv.org/abs/2504.15364">QuoKA</a> (query-oriented KV selection for efficient LLM prefill) accepted to ICLR 2026.</span>
+    <span class="news-copy"><a href="https://arxiv.org/abs/2504.15364">QuoKA</a> (query-oriented KV selection for efficient LLM prefill) accepted to ICLR 2026.</span>
   </li>
   <li>
     <span class="news-date">Sep 2025</span>
-    <span>Two papers accepted to NeurIPS 2025: <a href="https://arxiv.org/abs/2504.15364">KeyDiff</a> (KV cache eviction for long-context LLM inference) and <a href="https://arxiv.org/abs/2409.03811">PARCO</a> (parallel autoregressive models for multi-agent combinatorial optimization).</span>
+    <span class="news-copy">Two papers accepted to NeurIPS 2025: <a href="https://arxiv.org/abs/2504.15364">KeyDiff</a> (KV cache eviction for long-context LLM inference) and <a href="https://arxiv.org/abs/2409.03811">PARCO</a> (parallel autoregressive models for multi-agent combinatorial optimization).</span>
   </li>
   <li>
     <span class="news-date">Aug 2025</span>
-    <span><a href="https://arxiv.org/abs/2406.15007">Routefinder</a> accepted to TMLR 2025.</span>
+    <span class="news-copy"><a href="https://arxiv.org/abs/2406.15007">Routefinder</a> accepted to TMLR 2025.</span>
   </li>
   <li>
     <span class="news-date">Jul 2025</span>
-    <span><a href="https://arxiv.org/abs/2306.17100">RL4CO</a> accepted to KDD 2025. Check out <a href="https://rl4co.ai4co.org">rl4co.ai4co.org</a>.</span>
+    <span class="news-copy"><a href="https://arxiv.org/abs/2306.17100">RL4CO</a> accepted to KDD 2025. Check out <a href="https://rl4co.ai4co.org">rl4co.ai4co.org</a>.</span>
   </li>
   <li>
     <span class="news-date">Mar 2024</span>
-    <span><a href="https://arxiv.org/abs/2402.14160">Recursive Speculative Decoding</a> accepted to the LLM Agents Workshop at ICLR 2024.</span>
+    <span class="news-copy"><a href="https://arxiv.org/abs/2402.14160">Recursive Speculative Decoding</a> accepted to the LLM Agents Workshop at ICLR 2024.</span>
   </li>
   <li>
     <span class="news-date">Oct 2023</span>
-    <span>Started as <strong>Senior AI Researcher at Qualcomm AI Research</strong> to work on efficient LLM.</span>
+    <span class="news-copy">Started as <strong>Senior AI Researcher at Qualcomm AI Research</strong> to work on efficient LLM.</span>
   </li>
 </ul>
 </section>
 
----
-
 <section id="publications">
+<div class="section-header">
 <h2>Publications</h2>
+</div>
 
+<div class="paper-list is-primary">
 <div class="paper-card">
   <span class="venue-badge venue-iclr">ICLR 2026</span>
   <div class="paper-title"><a href="https://arxiv.org/abs/2602.08722">QuoKA: Query-Oriented KV Selection for Efficient LLM Prefill</a></div>
@@ -110,7 +114,15 @@ layout: default
   <div class="paper-authors">Wonseok Jeon, Mukul Gagrani, Raghavv Goel, <strong>Junyoung Park</strong>, Mingu Lee, Christopher Lott</div>
   <div class="paper-links"><a href="https://arxiv.org/abs/2402.14160">[paper]</a></div>
 </div>
+</div>
 
+<details class="publication-archive">
+  <summary>
+    <span>Earlier publications and selected preprints</span>
+    <span>14 papers</span>
+  </summary>
+  <p class="publication-archive-copy">Expand to view work from 2023 back to 2018.</p>
+  <div class="paper-list paper-list-archive">
 <div class="paper-card">
   <span class="venue-badge venue-msec">MSEC 2023</span>
   <div class="paper-title"><a href="https://asmedigitalcollection.asme.org/manufacturingscience/article-abstract/146/1/011009/1168977/">Generating Dispatching Rules for the Interrupting Swap-Allowed Blocking Job Shop Scheduling Problem Using Graph Neural Network and Reinforcement Learning</a></div>
@@ -181,7 +193,7 @@ layout: default
   <div class="paper-links">
     <a href="https://www.tandfonline.com/doi/epdf/10.1080/00207543.2020.1870013?needAccess=true&role=button">[paper]</a>
     <a href="/assets/file/certificate.pdf">[top-cited 2021/22]</a>
-    <span style="font-size:12px;color:#6B7280">IF = 8.568</span>
+    <span class="paper-metric">IF = 8.568</span>
   </div>
 </div>
 
@@ -196,7 +208,7 @@ layout: default
   <span class="venue-badge venue-ieee">IEEE Trans. Sustainable Energy 2019</span>
   <div class="paper-title">Wind Field-Based Short-Term Turbine Response Forecasting by Stacked Dilated Convolutional LSTMs</div>
   <div class="paper-authors">Seongcheol Woo, <strong>Junyoung Park</strong>, Jinkyoo Park, Lance Manuel</div>
-  <div class="paper-links"><span style="font-size:12px;color:#6B7280">IF = 9</span></div>
+  <div class="paper-links"><span class="paper-metric">IF = 9</span></div>
 </div>
 
 <div class="paper-card">
@@ -207,7 +219,7 @@ layout: default
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S0360544219315555">[paper]</a>
     <a href="https://github.com/Junyoungpark/PGNN">[code]</a>
     <a href="https://github.com/Junyoungpark/PGNN/blob/main/wind_farm_presentation.pdf">[slides]</a>
-    <span style="font-size:12px;color:#6B7280">IF = 8.857</span>
+    <span class="paper-metric">IF = 8.857</span>
   </div>
 </div>
 
@@ -217,14 +229,18 @@ layout: default
   <div class="paper-authors">Seongcheol Woo, <strong>Junyoung Park</strong>, Jinkyoo Park</div>
   <div class="paper-links"></div>
 </div>
+  </div>
+</details>
 
 </section>
 
----
-
 <section id="education">
+<div class="section-header">
 <h2>Education</h2>
+<p class="section-lead">Training in industrial engineering, optimization, and machine learning at KAIST.</p>
+</div>
 
+<div class="edu-list">
 <div class="edu-entry">
   <div class="edu-degree">Ph.D. &mdash; <a href="http://ie.kaist.ac.kr/" class="edu-school">KAIST</a></div>
   <div class="edu-meta">
@@ -240,6 +256,7 @@ layout: default
     Industrial &amp; Systems Engineering &middot; Business and Technology Management (Double Major)<br>
     Feb 2011 – Feb 2016 &middot; National Excellence Scholarship (Fully Funded)
   </div>
+</div>
 </div>
 
 </section>
