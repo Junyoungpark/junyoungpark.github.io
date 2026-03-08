@@ -495,13 +495,18 @@ main {
 }
 
 .focus-papers a {
-  color: var(--ink-soft);
+  color: var(--accent-strong);
   font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: rgba(37, 99, 235, 0.32);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
 }
 
 .focus-papers a:hover,
 .focus-papers a:focus-visible {
-  color: var(--accent-strong);
+  color: var(--accent);
+  text-decoration-color: rgba(37, 99, 235, 0.5);
 }
 
 .news-list {
