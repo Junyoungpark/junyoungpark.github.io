@@ -10,7 +10,7 @@ layout: default
 
 <div class="focus-list">
   <article class="focus-item">
-    <h3>Efficient LLM inference</h3>
+    <h3>KV cache and long-context inference</h3>
     <div class="focus-copy">
       <p>Work on KV cache selection, eviction, and long-context serving under memory constraints.</p>
       <p class="focus-papers">Examples: <a href="https://arxiv.org/abs/2602.08722">query-oriented KV selection (QuoKA)</a>, <a href="https://arxiv.org/abs/2504.15364">KV cache eviction for long contexts (KeyDiff)</a>.</p>
